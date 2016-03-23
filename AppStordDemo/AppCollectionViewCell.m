@@ -1,0 +1,13 @@
+//
+//  AppCollectionViewCell.m
+//  AppStordDemo
+//
+//  Created by qishang on 16/3/23.
+//  Copyright © 2016年 Rocky. All rights reserved.
+//
+
+#import "AppCollectionViewCell.h"
+
+@implementation AppCollectionViewCell
+
+@end
