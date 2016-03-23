@@ -52,7 +52,7 @@ static NSString * const kAppListCell = @"kAppListCell";
 
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
 
-    AppListCollectionViewCell *displayCell = (AppListCollectionViewCell *)cell;
+//    AppListCollectionViewCell *displayCell = (AppListCollectionViewCell *)cell;
     
     CGFloat offSetX = [self.contentOffsetArray[[NSString stringWithFormat:@"%ld", indexPath.row]] floatValue];
     if (offSetX) {
